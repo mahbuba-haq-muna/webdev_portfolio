@@ -6,6 +6,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: #fff;
 }
 .btn-primary{
     border-radius: 5px;
@@ -163,4 +164,35 @@ a{
 .experience h1{
     font-size: 30px;
     padding-bottom: 20px
+}
+.cv{
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* footer start */
+footer{
+    background-color: #FFF8F3;
+}
+.footer-container{
+    padding: 100px 150px;
+    display: flex;
+    gap: 100px;
+}
+.contact-form{
+    width: 50%;
+}
+.contact-form input[type="text"], .contact-form input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+.icon a{
+    margin-left: 25px;
 }
